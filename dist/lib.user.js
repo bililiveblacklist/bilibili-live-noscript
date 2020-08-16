@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         杀脚本哥的脚本v20190525
+// @name         云黑名单
 // @namespace    https://vtbs.moe/
 // @version      2.0.190525
 // @description  bug还有一吨...
