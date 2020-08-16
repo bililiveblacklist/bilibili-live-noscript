@@ -5,8 +5,8 @@
 // @description  bug还有一吨...
 // @author       bilibili-dd-center/3Shain
 // @include      https://live.bilibili.com/*
-// @downloadURL  https://github.com/tiankongerciyuanyinyueApp/bilibili-live-noscript/raw/master/dist/lib.user.js
-// @updateURL    https://github.com/tiankongerciyuanyinyueApp/bilibili-live-noscript/raw/master/dist/lib.user.js     
+// @downloadURL  https://github.com/bililiveblacklist/bilibili-live-noscript/raw/master/dist/lib.user.js
+// @updateURL    https://github.com/bililiveblacklist/bilibili-live-noscript/raw/master/dist/lib.user.js     
 // @grant        none
 // ==/UserScript==
 /******/ (function(modules) { // webpackBootstrap
@@ -370,7 +370,7 @@ function getOnlineBlockList() {
             switch (_a.label) {
                 case 0: return [4 /*yield*/, $.ajax({
                         type: 'get',
-                        url: 'https://raw.githubusercontent.com/tiankongerciyuanyinyueApp/bilibili-live-noscript/master/blacklist.txt',
+                        url: 'https://raw.githubusercontent.com/bililiveblacklist/bilibili-live-noscript/master/blacklist.txt',
                         dataType: 'text'
                     })];
                 case 1:
